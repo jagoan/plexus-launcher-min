@@ -1,6 +1,6 @@
 
-import caro1 from '/images/content/IP_img_hanturium.png'
-import caro1Show from '/images/content/IP_img_hanturium_active.png'
+import caro1 from '/images/content/IP_img_comanomaly.png'
+import caro1Show from '/images/content/IP_img_comanomaly_active.png'
 import caro2 from '/images/content/IP_img_238.webp'
 import caro2Show from '/images/content/IP_img_238_active.webp'
 import caro3 from '/images/content/IP_img_atg.webp'

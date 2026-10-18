@@ -2,19 +2,19 @@ import { Booklet, Images, Porto, Videos } from "./helper"
 const baseUrl = import.meta.env.VITE_BASE_URL || '';
 const dataBooklet = [
     {
-        id: "hanturium",
-        title: "Hanturium",
+        id: "comanomaly",
+        title: "COMANOMALY",
         videoCover: undefined,
-        videoCoverYT: 'yNWufXbWZ7c',
-        imgCover: Booklet.assetshanturium11,
+        videoCoverYT: 'R_YjyhjJ-_E',
+        imgCover: Booklet.assetscomanomaly1,
         tagline: "",
-        description: "A horror puzzle game with absurd comedy and a distinct visual style where you, the player, must spot anomalies caused by the curse, or recognize bizarre symptoms your patient is experiencing.",
-        img2: Booklet.assetshanturium12,
-        img3: Booklet.assetshanturium13,
-        description2: "It's 1985. You are Ida, a nurse working for Mertahita Hospital. One night, a very wealthy and powerful patient was admitted to the hospital with weird symptoms and peculiar conditions: Ricardo Hartowo.",
-        img4: Booklet.assetshanturium14,
-        description3: "Step into the haunted research facility of Hanturium, where time is running out and nothing is as it seems—unravel the mystery behind supernatural anomalies, decipher cryptic messages left by a missing doctor and a secretive shaman, monitor life support machines for disturbing medical clues, and piece together sinister truths hidden in every dialogue, shadow, and flickering light before it's too late.",
-        img5: Booklet.assetshanturium15,
+        description: "COMANOMALY is a mix between whodunnit mystery and horror game, with different randomly selected culprit each playthrough. The title is a portmanteau of Coma (state of deep unconsciousness) and Anomaly (abnormalities).",
+        img2: Booklet.assetscomanomaly2,
+        img3: Booklet.assetscomanomaly3,
+        description2: "It's 1985. You are Susi, a nurse working for Sudaritra Hospital, you have to protect your patient: a wealthy and powerful man with weird symptoms and peculiar conditions.",
+        img4: Booklet.assetscomanomaly4,
+        description3: "",
+        img5: Booklet.assetscomanomaly5,
 		steamWidget: '3921560',
     },
     {
@@ -223,13 +223,24 @@ const cardsOffline =
 
 const cards = [
     {
-        "name": "HANTURIUM",
-        "img": Images.hanturium,
+        "name": "COMANOMALY",
+        "img": Images.comanomaly,
         "details_title": "A horror puzzle game with absurd comedy and a distinct visual style",
         "color": "bg-ips",
-        "details": `${baseUrl}/hanturium`,
-        "yt": 'yNWufXbWZ7c',
+        "details": `${baseUrl}/comanomaly`,
+        "yt": 'R_YjyhjJ-_E',
         "video": undefined,
+        "border": "border-ips",
+        "category": "PC GAME"
+    },
+    {
+        "name": "THE BLUE CUT HOOK",
+        "img": Images.baresque,
+        "details_title": "Visual Novel Game For PC",
+        "color": "bg-ips",
+        "details": `${baseUrl}/tbch`,
+        "yt": undefined,
+        "video": Videos.bluecuthook,
         "border": "border-ips",
         "category": "PC GAME"
     },
@@ -252,17 +263,6 @@ const cards = [
         "details": `${baseUrl}/atg`,
         "yt": undefined,
         "video": Videos.atg,
-        "border": "border-ips",
-        "category": "PC GAME"
-    },
-    {
-        "name": "THE BLUE CUT HOOK",
-        "img": Images.baresque,
-        "details_title": "Visual Novel Game For PC",
-        "color": "bg-ips",
-        "details": `${baseUrl}/tbch`,
-        "yt": undefined,
-        "video": Videos.bluecuthook,
         "border": "border-ips",
         "category": "PC GAME"
     },

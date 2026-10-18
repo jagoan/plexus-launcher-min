@@ -1,3 +1,4 @@
+import comanomaly from '/images/content/comanomaly.webp';
 import hanturium from '/images/content/hanturium.png';
 import dhukun from '/images/content/dhukun.webp';
 import atg from '/images/content/ATG.webp';
@@ -124,6 +125,11 @@ import loquesticvideo from '/videos/loquestic.mp4';
 import borobudurvideo from '/videos/borobudur.mp4';
 import heavenfallsvideo from '/videos/heavenfalls.mp4';
 
+import assetscomanomaly1 from '/assets_booklet/comanomaly-1.png';
+import assetscomanomaly2 from '/assets_booklet/comanomaly-2.jpg';
+import assetscomanomaly3 from '/assets_booklet/comanomaly-3.jpg';
+import assetscomanomaly4 from '/assets_booklet/comanomaly-4.jpg';
+import assetscomanomaly5 from '/assets_booklet/comanomaly-5.jpg';
 import assetshanturium11 from '/assets_booklet/HanturiumAsset 11.png';
 import assetshanturium12 from '/assets_booklet/HanturiumAsset 12.png';
 import assetshanturium13 from '/assets_booklet/HanturiumAsset 13.png';
@@ -174,6 +180,11 @@ export class Helper {
 
 }
 export class Booklet {
+    static assetscomanomaly1 = assetscomanomaly1
+    static assetscomanomaly2 = assetscomanomaly2
+    static assetscomanomaly3 = assetscomanomaly3
+    static assetscomanomaly4 = assetscomanomaly4
+    static assetscomanomaly5 = assetscomanomaly5
     static assetshanturium11 = assetshanturium11
     static assetshanturium12 = assetshanturium12
     static assetshanturium13 = assetshanturium13
@@ -272,6 +283,7 @@ export class Porto {
 }
 
 export class Images {
+    static comanomaly = comanomaly
     static hanturium = hanturium
     static curse = curse
     static jolted = jolted
