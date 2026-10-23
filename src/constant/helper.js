@@ -125,11 +125,11 @@ import loquesticvideo from '/videos/loquestic.mp4';
 import borobudurvideo from '/videos/borobudur.mp4';
 import heavenfallsvideo from '/videos/heavenfalls.mp4';
 
-import assetscomanomaly1 from '/assets_booklet/comanomaly-1.png';
-import assetscomanomaly2 from '/assets_booklet/comanomaly-2.jpg';
-import assetscomanomaly3 from '/assets_booklet/comanomaly-3.jpg';
-import assetscomanomaly4 from '/assets_booklet/comanomaly-4.jpg';
-import assetscomanomaly5 from '/assets_booklet/comanomaly-5.jpg';
+import assetscomanomaly1 from '/assets_booklet/comanomaly-1.webp';
+import assetscomanomaly2 from '/assets_booklet/comanomaly-2.webp';
+import assetscomanomaly3 from '/assets_booklet/comanomaly-3.webp';
+import assetscomanomaly4 from '/assets_booklet/comanomaly-4.webp';
+import assetscomanomaly5 from '/assets_booklet/comanomaly-5.webp';
 import assetshanturium11 from '/assets_booklet/HanturiumAsset 11.png';
 import assetshanturium12 from '/assets_booklet/HanturiumAsset 12.png';
 import assetshanturium13 from '/assets_booklet/HanturiumAsset 13.png';
